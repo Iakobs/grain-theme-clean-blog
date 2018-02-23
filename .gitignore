@@ -1,5 +1,3 @@
-.idea
-*.iml
 .DS_Store
 .cache
 .gradle
@@ -16,3 +14,20 @@ target
 /nbbuild/
 build.xml
 /nbproject/
+
+# Intellij #
+.idea/
+out/
+*.iml
+*.iws
+*.ipr
+
+# Gradle #
+build/
+
+# Grain #
+/.sass-cache/
+/target/
+
+# GitHub #
+.travis

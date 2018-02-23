@@ -170,12 +170,12 @@ blog {
     /**
      * An email, where a mail from a contact form will be sent.
      */
-    contact_email = "your@email.com"
+    contact_email = "jacobibanez@jacobibanez.com"
 
     /**
      * Blog title to be displayed in RSS/Atom feeds.
      */
-    title = 'Clean Blog'
+    title = /Jacob Ibáñez Sánchez's blog/
 
     /**
      * The amount of blog posts to be displayed in a feed.
@@ -202,7 +202,7 @@ deploy_s3 = "s3cmd sync --acl-public --reduced-redundancy ${destination_dir}/ s3
  * @attr gh_pages_url Path to GitHub repository in format git@github.com:{username}/{repo}.git
  * @attr deploy a command to deploy to GitHubPages.
  */
-gh_pages_url = ''
+gh_pages_url = 'git@github.com:Iakobs/grain-theme-clean-blog.git'
 deploy = new GHPagesDeployer(site).deploy
 
 /**
@@ -249,10 +249,10 @@ title: "${postTitle}"
 subtitle: ""
 image: "post-bg.jpg"
 date: "${date.format(datetime_format)}"
-author: "John Doe"
-author_email: ""
-author_link: "#"
-published: false
+author: "Jacob Ibáñez Sánchez"
+author_email: "jacobibanez@jacobibanez.com"
+author_link: "/about.html"
+published: true
 ---
 """)}
 ]
